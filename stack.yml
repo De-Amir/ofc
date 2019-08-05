@@ -6,4 +6,4 @@ functions:
   go-fn:
     lang: go
     handler: ./go-fn
-    image: qolzam/go-fn:v0.1
+    image: go-fn:v0.2
