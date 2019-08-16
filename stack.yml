@@ -6,5 +6,5 @@ functions:
   go-fn:
     lang: go
     handler: ./go-fn
-    image: go-fn:v1.3
+    image: go-fn:v1.4
   
