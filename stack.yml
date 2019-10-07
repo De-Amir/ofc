@@ -1,10 +1,17 @@
 version: 1.0
 provider:
   name: openfaas
-  gateway: http://fn.chai.local
+  gateway: http://127.0.0.1:31112
 functions:
-  go-fn:
-    lang: go
-    handler: ./go-fn
-    image: go-fn:v1.4
-  
+  micro1:
+    lang: golang-middleware
+    handler: ./micro1
+    image: qolzam/micro1:0.1
+  micro2:
+    lang: golang-middleware
+    handler: ./micro2
+    image: qolzam/micro2:0.1
+  micro3:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
