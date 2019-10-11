@@ -3,15 +3,35 @@ provider:
   name: openfaas
   gateway: http://127.0.0.1:31112
 functions:
-  micro1:
+  email:
     lang: golang-middleware
     handler: ./micro1
     image: qolzam/micro1:0.1
-  micro2:
+  sms:
     lang: golang-middleware
     handler: ./micro2
     image: qolzam/micro2:0.1
-  micro3:
+  face_validator:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
+  voice_reconition:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
+  ocr_japanese:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
+  product_recomendation:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
+  heart_beat_analyser:
+    lang: golang-middleware
+    handler: ./micro3
+    image: qolzam/micro3:0.1
+  sleep_analyser:
     lang: golang-middleware
     handler: ./micro3
     image: qolzam/micro3:0.1
