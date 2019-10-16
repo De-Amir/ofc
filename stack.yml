@@ -31,7 +31,7 @@ functions:
     lang: golang-middleware
     handler: ./micro3
     image: qolzam/micro3:0.1
-  humid-rec:
+  humid-record:
     lang: golang-middleware
     handler: ./micro3
     image: qolzam/micro3:0.1
