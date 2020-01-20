@@ -7,31 +7,3 @@ functions:
     lang: golang-middleware
     handler: ./micro1
     image: qolzam/micro1:0.1
-  sms:
-    lang: golang-middleware
-    handler: ./micro2
-    image: qolzam/micro2:0.1
-  face-validator:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
-  voice-reconition:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
-  ocr-japanese:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
-  product-recomendation:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
-  heart-beat-analyser:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
-  humid-rec:
-    lang: golang-middleware
-    handler: ./micro3
-    image: qolzam/micro3:0.1
