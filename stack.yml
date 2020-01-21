@@ -7,3 +7,7 @@ functions:
     lang: golang-middleware
     handler: ./micro1
     image: qolzam/micro1:0.1
+    annotations:
+      edge.gateway: "http://inlets.defaul"
+      edge.user: "tIdnBFEDPvdYhEHm3BB7pQ=="
+      edge.password: "XVA9vEgKLShTecxfOeixbkXTarsjFcTNIu8W2g=="
