@@ -9,5 +9,5 @@ functions:
     image: qolzam/micro1:0.1
     annotations:
       edge.gateway: "http://inlets.default/"
-      edge.user: "hWICHHkLKgve1vwcQa9I3GMsmXgo"
+      edge.user: "eHTYDRH5D4_RO29jSUWE4lhzVupf"
       edge.password: "XVA9vEgKLShTecxfOeixbkXTarsjFcTNIu8W2g=="
